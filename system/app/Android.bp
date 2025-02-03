@@ -1,0 +1,11 @@
+android_app_import {
+    name: "ViPER4AndroidFX",
+    apk: "ViPER4AndroidFX/ViPER4AndroidFX.apk",
+    overrides: ["AudioFX"],
+    certificate: "platform",
+    dex_preopt: {
+	enabled: false,
+    },
+    privileged: true,
+    system_ext_specific: true,
+}
